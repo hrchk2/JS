@@ -13,5 +13,18 @@ $(function(){
 });
 
 $(function(){
-  $('.box2').slideDown().slideUp();
+  $('.box2').fadeIn(1000);
+});
+
+$(function(){
+  $('.box3').mouseover(function(){
+    $('.box3').css({
+      'background-color':'#0000FF'
+    });
+  });
+  $('.box3').mouseout(function(){
+    $('.box3').css({
+      'background-color':'#FF0000'
+    });
+  });
 });

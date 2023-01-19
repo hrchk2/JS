@@ -3,6 +3,7 @@
   background-color: #FF0000;
   height: 200px;
   width: 200px;
+  margin-bottom: 10px;
 }
 
 .box2 {
@@ -10,4 +11,11 @@
   background-color: #FF0000;
   height: 200px;
   width: 200px;
+}
+
+.box3 {
+  background-color: #FF0000;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
 }
