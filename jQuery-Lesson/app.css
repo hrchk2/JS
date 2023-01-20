@@ -19,3 +19,34 @@
   width: 200px;
   margin-bottom: 10px;
 }
+
+.box4 {
+  background-color: #FF0000;
+  height: 200px;
+  width: 200px;
+}
+
+.box4-ext {
+  border: 10px solid black;
+}
+
+.box5 {
+  background-color: #FF0000;
+  height: 200px;
+  width: 200px;
+}
+
+.box5-ext {
+  border: 10px solid black;
+}
+
+.box6 {
+  background-color: #FF0000;
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.box6-ext {
+  border: 10px solid black;
+}
