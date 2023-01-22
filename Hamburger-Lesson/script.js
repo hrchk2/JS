@@ -1,0 +1,9 @@
+$(function(){
+  $('.menu-trigger').on('click',function(aaa){
+    $(this).toggleClass('active');
+    $('#sp-menu').fadeToggle();
+    console.log(aaa.type);
+    console.log(aaa.target);
+    aaa.preventDefault();
+  });
+});
