@@ -1,3 +1,5 @@
+/* global $*/
+
 $(function(){
   $('#btn').on('click', function() {
     $.ajax({

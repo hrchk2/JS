@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <button id="btn">スタート</button><br/>
+    
+    <span>問題 :</span>
+    <div id="question"><img id="img"></div><br/>
+    
+    <form id="form" onsubmit="checkAnswer(); return false;">
+      <label>回答 :</label>
+      <input id="answer" type="text" autocomplete="off" maxlength="10" size="12" autofocus>
+      <input type="submit" value="答え合わせ">
+    </form>
+    
+    <span>結果 :</span>
+    <span id="judge"></span>
+    
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
