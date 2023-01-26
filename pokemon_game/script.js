@@ -71,7 +71,7 @@ function checkAnswer(){
 // ボタンクリック時に変数intを代入し、数字を当てるゲーム
 $(function(){
   $('#btn2').click(function(){
-    const int = Math.floor( Math.random() * 150 ) +1;
+    const int = Math.floor( Math.random() * 151 ) +1;
     console.log(int);
     $('#submit_2').click(function (){
       function checkAnswer2(){
@@ -87,3 +87,61 @@ $(function(){
       });
    });
 });
+
+// switch文練習
+
+$(function() {
+  $('#omikuji_btn').click(function(){
+    const omikuji =Math.floor( Math.random() * 13 );
+    console.log(omikuji)
+    switch (omikuji) {
+      case 0:
+        $('#result').text("大吉");
+      break;
+        
+      case 1:
+        $('#result').text("中吉");
+      break;
+      
+      case 2:
+        $('#result').text("小吉");
+      break;
+      
+      case 3:
+        $('#result').text("吉");
+      break;
+      
+      case 4:
+        $('#result').text("半吉");
+      break;
+        
+      case 5:
+        $('#result').text("末吉");
+      break;
+      
+      case 6:
+        $('#result').text("末小吉");
+      break;
+      
+      case 7:
+        $('#result').text("凶");
+      break;
+        
+      case 8:
+        $('#result').text("小凶");
+      break;
+      
+      case 9:
+        $('#result').text("半凶");
+      break;
+      
+      case 10 :
+        $('#result').text("末凶");
+      break;
+      
+      default:
+        $('#result').text("大凶");
+      break;
+    }
+  })
+})

@@ -22,9 +22,9 @@ $(function(){
         return false;
         });
     }).fail(function(data){
-       alert('通信に失敗しました。');
+      alert('通信に失敗しました。');
     });
-   });
+  });
 });
 
 
