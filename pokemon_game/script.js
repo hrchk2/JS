@@ -98,50 +98,108 @@ $(function() {
       case 0:
         $('#result').text("大吉");
       break;
-        
+
       case 1:
         $('#result').text("中吉");
       break;
-      
+
       case 2:
         $('#result').text("小吉");
       break;
-      
+
       case 3:
         $('#result').text("吉");
       break;
-      
+
       case 4:
         $('#result').text("半吉");
       break;
-        
+
       case 5:
         $('#result').text("末吉");
       break;
-      
+
       case 6:
         $('#result').text("末小吉");
       break;
-      
+
       case 7:
         $('#result').text("凶");
       break;
-        
+
       case 8:
         $('#result').text("小凶");
       break;
-      
+
       case 9:
         $('#result').text("半凶");
       break;
-      
+
       case 10 :
         $('#result').text("末凶");
       break;
-      
+
       default:
         $('#result').text("大凶");
       break;
     }
   })
 })
+
+// const introduce = function(){
+//   console.log("こんにちわ");
+//   console.log("私はにんじゃわんこです");
+// };
+
+// introduce();
+
+// const abc = () => {
+//   console.log("abc");
+// };
+
+// abc();
+
+// function text(){
+//   console.log("text");
+// }
+
+// text();
+
+// コールバック関数　勉強-------------------------------
+
+// const introduce = function (a){
+//   a("a",14);
+// };
+
+// introduce((name,age)=>{
+//   console.log(`${name}は${age}です。`);
+// });
+
+// const test = function(num,num2){
+//   console.log(`${num}`);
+//   console.log(num2);
+// };
+
+// test(4,2);
+
+
+
+// --------------------------------------------------------------
+// const test = function(num){
+//   num(1,1);
+// };
+
+// test(function(num1,num2){
+//   console.log(num1);
+//   console.log(num2);
+// });
+
+
+
+// ----------------------------------------------------
+// const num = (function(num1,num2){
+//   console.log(num1);
+//   console.log(num2);
+// })
+
+// num(2,2);
