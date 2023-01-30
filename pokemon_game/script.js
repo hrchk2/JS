@@ -203,3 +203,27 @@ $(function() {
 // })
 
 // num(2,2);
+
+// 関数内の変数を関数外で使う方法--------------------------
+// function nameFn() {
+//   let firstName = "Taro";
+//   let lastName = "Yamada";
+//   return {
+//     firstName,
+//     lastName,
+//   };
+// }
+// console.log(nameFn().firstName); // -> Taro
+// console.log(nameFn().lastName); // -> Yamada
+
+// 無名関数の場合
+// const nameInfo = function () {
+//   let firstName = "Taro";
+//   let lastName = "Yamada";
+//   return {
+//     firstName,
+//     lastName,
+//   };
+// };
+// console.log(nameInfo().firstName); // -> Taro
+// console.log(nameInfo().lastName); // -> Yamada
